@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+    background-image: url(../img/architectural-design-architecture-bridge-2403251\ \(2\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.logo{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    height: 100px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.login-page {
+    width: 350px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.login-form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #dad6d6;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.login-form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #dad6d6;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background:rgb(237, 240, 240);
+}
+
