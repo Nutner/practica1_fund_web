@@ -8,13 +8,12 @@
 .navbar {
     margin:0;
     font-family: "Over the Rainbow", cursive;
-    display: flex;
+    display:flex;
     font-size: 1.2rem;
     background-color: rgb(168, 66, 66);
     width:100%;
-    position: fixed;
     top: 0;
-    z-index: 1;
+    z-index:1;
     align-items: center;
   }
 .navbar-list {
