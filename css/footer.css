@@ -1,0 +1,12 @@
+footer {
+    font-size:100px;
+    height:210px;
+    background: black;
+    color: bisque;
+    text-align: center;
+    font-family: "Over The Rainbow",cursive;
+}
+
+p {
+    margin-bottom: 0;
+}

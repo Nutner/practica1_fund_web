@@ -5,4 +5,9 @@
 body {
     margin: 0;
     padding:0;
+    background-image: url(../img/architectural-design-architecture-bridge-2403251\ \(2\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
 }

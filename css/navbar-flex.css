@@ -2,15 +2,15 @@
 
 .logo {
     margin-left:1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Over the Rainbow', cursive;
+    color: white;
+    text-shadow: 3px 2px rgb(204, 4, 4);
 }
 .navbar {
-    margin:0;
+    margin:auto;
     font-family: "Over the Rainbow", cursive;
     display:flex;
-    font-size: 1.2rem;
-    background-color: rgb(168, 66, 66);
     width:100%;
     top: 0;
     z-index:1;
@@ -22,15 +22,27 @@
     margin:0;
     flex: 1 100%;
     justify-content: flex-end;
-  }
+}
 .navbar-item > a {
     text-decoration: none;
-    color: #222222;
+    color:rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-shadow: 1px 2px rgb(204, 4, 4);
     padding: 1rem;
     display: block;
-  }
+}
   
-.navbar-item > a:hover {
-    color: azure;
-    background-color: #999191;
-  }
+
+.busqueda {
+  color:rgb(255, 255, 255);
+  font-size: 1.5rem;
+  text-shadow: 1px 2px rgb(204, 4, 4);
+  padding: 1rem;
+  display: block;
+  
+}
+
+/* .navbar-item > a:hover {
+  color:black;
+  background-color: #ebe6e6;
+} */
