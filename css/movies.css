@@ -1,0 +1,15 @@
+strong {
+    font-size: 1.5rem;
+}
+.oculto{
+    display:none;
+	background: rgba(5, 5, 22, 0.5);
+    width:100%;
+    border-radius: 25px;
+}
+#normal:hover .oculto{
+    display:block;  
+}
+a{
+    text-decoration-line: none;
+}

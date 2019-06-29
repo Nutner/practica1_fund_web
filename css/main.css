@@ -2,20 +2,10 @@
 .main-container { 
     width: 100%;
     /* font-size: 2.5rem; */
-    line-height:50px;
+    /* line-height:50px; */
     text-align: center;
     color: white;
     text-shadow: 3px 2px rgb(204, 4, 4);
     font-family: "Over The Rainbow", cursive;
     
-}
-.info {
-    background: white;
-}
-/* .info p{ */
-    display: none;
-}
-img:hover{
-    width: 50%;
-    height: 75%;
 }

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow&display=swap');
+.main-container-info { 
+    width: 100%;
+    font-size: 2.5rem;
+    /* line-height:50px; */
+    text-align: center;
+    color: white;
+    text-shadow: 3px 2px rgb(204, 4, 4);
+    font-family: "Over The Rainbow", cursive;
+}
+.main-container-info{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "titulo titulo titulo"
+                         "trailer info  resumen"
+                         "trailer info resumen"
+                         "relacionado relacionado relacionado"
+                         "movie1 movie2 movie3";
+}
+.main-container-info .titulo{
+    grid-column-start: titulo;
+    grid-column-end: titulo;
+}
+.main-container-info .trailer{
+    grid-column-start: trailer;
+    grid-column-end: trailer;
+    grid-row-start: trailer;
+    grid-row-end: trailer;
