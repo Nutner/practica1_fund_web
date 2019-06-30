@@ -1,29 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow&display=swap');
 .main-container-info { 
-    width: 100%;
-    font-size: 2.5rem;
-    /* line-height:50px; */
+    width:90%;
     text-align: center;
     color: white;
     text-shadow: 3px 2px rgb(204, 4, 4);
     font-family: "Over The Rainbow", cursive;
+    margin: 20px auto;
 }
+/* Aplicamos grid */
 .main-container-info{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(3,1fr);
     grid-template-areas: "titulo titulo titulo"
-                         "trailer info  resumen"
-                         "trailer info resumen"
+                         "trailer info sinopsis"
+                         "trailer info sinopsis"
                          "relacionado relacionado relacionado"
-                         "movie1 movie2 movie3";
+                         "movie1 movie2 movie3";                    
+                        
 }
 .main-container-info .titulo{
-    grid-column-start: titulo;
-    grid-column-end: titulo;
+    grid-area: titulo;
+    height: 50px;
+
+}
+.info li{
+    list-style-type:none;
 }
 .main-container-info .trailer{
-    grid-column-start: trailer;
-    grid-column-end: trailer;
-    grid-row-start: trailer;
-    grid-row-end: trailer;
+   grid-area: trailer;
+
+}
+.main-container-info .info{
+    grid-area: info; 
+}
+.main-container-info .sinopsis {
+   grid-area: sinopsis;
+}
+.main-container-info .relacionado {
+   grid-area: relacionado;
+   height: 50px;
+}
+.main-container-info .movie1{
+    grid-area: movie1;
+}
+.main-container-info .movie2{
+    grid-area: movie2;
+}
+.main-container-info .movie3{
+    grid-area: movie3;
+}
+.trailer video{
+    top: 0;
+    left: 0;
+    width: 100%;
+  }

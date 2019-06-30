@@ -1,0 +1,30 @@
+@media screen and (max-width:768px) {
+    .main-container-info{
+        grid-template-areas: "titulo titulo titulo"
+                             "trailer trailer trailer"
+                             "info info info"
+                             "sinopsis sinopsis sinopsis"
+                             "relacionado relacionado relacionado"
+                             "movie1 movie1 movie1"
+                             "movie2 movie2 movie2"
+                             "movie3 movie3 movie3";
+        justify-items: center;          
+        }
+}
+
+@media screen and (max-width:768px) {
+    .main-container {
+        grid-template-areas: "novedades novedades novedades"
+                             "movie1 movie1 movie1"
+                             "movie2 movie2 movie2"
+                             "movie3 movie3 movie3"
+                             "peliculas peliculas peliculas"
+                             "movie4 movie4 movie4"
+                             "movie5 movie5 movie5"
+                             "movie6 movie6 movie6"                                                         
+                             "series series series"
+                             "movie7 movie7 movie7"
+                             "movie8 movie8 movie8"
+                             "movie9 movie9 movie9";
+    }
+}

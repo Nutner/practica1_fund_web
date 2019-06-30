@@ -3,9 +3,9 @@ strong {
 }
 .oculto{
     display:none;
-	background: rgba(5, 5, 22, 0.5);
     width:100%;
     border-radius: 25px;
+
 }
 #normal:hover .oculto{
     display:block;  
@@ -13,3 +13,8 @@ strong {
 a{
     text-decoration-line: none;
 }
+
+ .movie p{
+     height: 28px;
+
+ }
