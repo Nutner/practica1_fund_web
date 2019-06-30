@@ -16,7 +16,8 @@
                          "trailer info sinopsis"
                          "trailer info sinopsis"
                          "relacionado relacionado relacionado"
-                         "movie1 movie2 movie3";                    
+                         "movie1 movie2 movie3"
+                         "footer footer footer";                    
                         
 }
 .main-container-info .titulo{
@@ -49,6 +50,9 @@
 }
 .main-container-info .movie3{
     grid-area: movie3;
+}
+.main-container-info .footer{
+    grid-area: footer;
 }
 .trailer video{
     top: 0;

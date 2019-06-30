@@ -1,19 +1,46 @@
 .main-container { 
-    display: grid; 
+    display: grid;
     grid-template-columns:repeat(3,1fr);
     grid-template-areas: "novedades novedades novedades"
                          "movie1 movie2 movie3"
                          "peliculas peliculas peliculas"
                          "movie4 movie5 movie6"
                          "series series series"
-                         "movie7 movie8 movie9";
+                         "movie7 movie8 movie9"
+                         "footer footer footer";
+                        
     grid-gap: 10px;
-    
-       
 }
 .main-container .novedades{
     grid-column-start: novedades;
     grid-column-end: novedades;
+}
+.main-container .movie1{
+    grid-area: movie1;
+}
+.main-container .movie2{
+    grid-area: movie2;
+}
+.main-container .movie3{
+    grid-area: movie3;
+}
+.main-container .movie4{
+    grid-area: movie4;
+}
+.main-container .movie5{
+    grid-area: movie5;
+}
+.main-container .movie6{
+    grid-area: movie6;
+}
+.main-container .movie7{
+    grid-area: movie7;
+}
+.main-container .movie8{
+    grid-area: movie8;
+}
+.main-container .movie9{
+    grid-area: movie9;
 }
 .main-container .filmslist{
     grid-column-start: peliculas;
@@ -22,5 +49,8 @@
 .main-container .serieslist {
     grid-column-start: series;
     grid-column-end: series;
+}
+.main-container .footer {
+    grid-area: footer;
 }
 

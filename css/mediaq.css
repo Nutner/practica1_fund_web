@@ -7,8 +7,8 @@
                              "relacionado relacionado relacionado"
                              "movie1 movie1 movie1"
                              "movie2 movie2 movie2"
-                             "movie3 movie3 movie3";
-        justify-items: center;          
+                             "movie3 movie3 movie3"
+                             "footer footer footer";
         }
 }
 
@@ -25,6 +25,17 @@
                              "series series series"
                              "movie7 movie7 movie7"
                              "movie8 movie8 movie8"
-                             "movie9 movie9 movie9";
+                             "movie9 movie9 movie9"
+                             "footer footer footer";
     }
 }
+
+
+@media screen and (max-width:768px) {
+    .navbar-list{
+        flex-wrap: wrap;
+        
+    }
+    .logo{
+        font-size: 1rem;
+    }
